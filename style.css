@@ -15,9 +15,7 @@ ul{
 .logo{
     font-size: 2.5vmin;
 }
-
 /* basics */
-
 body,html{
     overflow-x: hidden;
 }
@@ -44,7 +42,6 @@ a{
 .header-content h2{
     font-size: 4vmin;
 }
-
 .line{
     width: 150px;
     height: 4px;
@@ -52,20 +49,17 @@ a{
     margin: 10px auto;
     border-radius: 5px;
 }
-
 .header-content h1{
     font-size: 7vmin;
     margin-top: 50px;
     margin-bottom:30px ;
 }
-
 .ctn{
     padding: 8px 15px;
     background: #fc036b;
     border-radius: 30px;
     color: black;
 }
-
 .navbar{
     position: absolute;
     top: 0;
@@ -77,8 +71,6 @@ a{
     color: black;
     background-color: transparent;
 }
-
-
 .nav-links{
     display: flex;
     align-items: center;
@@ -86,13 +78,11 @@ a{
 .nav-links li{
     margin: 0 30px;
 }
-
 .active{
     color:#fc036b ;
     text-decoration: underline;
     font-weight: bold;
 }
-
 #menu-btn{
     position: absolute;
     top: 30px;
@@ -113,47 +103,39 @@ section{
     width: 80%;
     margin: 80px auto;
 }
-
 .title{
     text-align: center;
     font-size: 4vmin;
     color: rgb(70, 83, 153);
 }
-
 .row{
     display: flex;
     align-items: center;
     width:100%;
     justify-content: space-between;
 }       
-
 .row .col {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-
 .events .row{
     margin-top: 50px;
 }
-
 h4{
     font-size: 4vmin ;
     font-weight: bold;
     color: #484872;
     margin: 20px auto;
 }
-
 p{
     color:#7c7c7c ;
     padding: 0px 40px;
 }
-
 .events .ctn{
     margin-top: 30px;
 
 }
-
 .explore{
     width: 100%;
     height: 100vh;
@@ -171,27 +153,22 @@ p{
     from {background-position:0 0;}
     to {background-position: 500px 0;}
   }
-   
   @-moz-keyframes animate {
     from {background-position:0 0;}
     to {background-position: 500px 0;}
   }
-   
   @-ms-keyframes animate {
     from {background-position:0 0;}
     to {background-position: 500px 0;}
   }
-   
   @-o-keyframes animate {
     from {background-position:0 0;}
     to {background-position: 500px 0;}
   }
-   
   @keyframes animate {
     from {background-position:0 0;}
     to {background-position: 500px 0;}
   }
-  
   .explore-content{
     width: 60%;
     padding: 50px;
@@ -203,33 +180,25 @@ p{
   .explore-content h1{
     font-size: 7vmin;
   }
-
   .explore-content p{
     color: rgb(185, 177, 177);
-    text-align: justify;
-
+    text-align: justify
   }
-  
   .explore-content .ctn{
     margin-top: 40px;
   }
-
   .explore-content .line{
     margin-top: 2px;
     padding-top: 5px;
     margin-bottom: 50px;
   }
-  
-
   /*Tours Section*/
-
   .content-col{
     width: 20%;
   }
   .image-col{
     width: 60%;
   }
-
   .tours .image-gallery{
     display: flex;
     flex-wrap: wrap;
@@ -249,7 +218,6 @@ p{
     margin: 30px -80px;
     text-align: justify;
   }
-
   .content-col .line{
     margin-left: -1px;
   }
@@ -257,7 +225,6 @@ p{
   .content .ctn{
     margin-left: -100px;
   }
-
     /*footer*/
   .footer{
     width: 100%;
@@ -267,7 +234,6 @@ p{
     background-color: #484872;
     text-align: center;
   }
-
   .footer p{
     color: whitesmoke;
     margin: 20px auto;
@@ -286,7 +252,6 @@ p{
         position: absolute;
         top: 30px;
         left: 30px;
-        font-size: 20px;  
     }
 
     .nav-links{
@@ -352,22 +317,17 @@ p{
         font-size: 3vmin;
       }
 }
-
 img{
     transition: transform .3s ease;
 }
-
 img:hover{
     transform: scale(1.1);
 }
-
 .ctn:hover{
     background: whitesmoke;
     color: #fc036b;
     box-shadow: 2px 2px 5px black;
 }
-
-
 li:hover{
     color: #fc036b;
     cursor: pointer;
